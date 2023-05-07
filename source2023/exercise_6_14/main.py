@@ -1,32 +1,33 @@
-import os
 from Bio import SeqIO
-from pathlib import Path
+from user import Menu
+
+fasta_files = {'0': 'brain',
+               '1': 'liver',
+               '2': 'muscle'}
 
 
 def parse_sequence(fasta_filename: str):
     sequence = None
     try:
         for seq in SeqIO.parse(fasta_filename, "fasta"):
-            print(seq.id)
-            print(repr(seq.seq))
-            print(len(seq))
+            pass
+            print(f"The length of {fasta_filename.split('/')[3]} nucleotide sequence is: {len(seq)} characters.")
 
     except Exception as e:
         print("\nAn unexpected error occurred while reading .fasta input files:\n\n" + str(e))
     return sequence
 
 
-def player1():
-    pass
-
-
-def player2():
+def announce_winner(n, m):
     pass
 
 
 def main():
-    print("\n--- Welcome to the Bioinformatics Game ---")
-    parse_sequence(r"../../auxiliary2023/brain.fasta")
+    menu = Menu()
+    user_choices = menu.user_selected_sequence_files()
+
+    parse_sequence(r"../../auxiliary2023/" + fasta_files[user_choices[0]] + ".fasta")
+    parse_sequence(r"../../auxiliary2023/" + fasta_files[user_choices[1]] + ".fasta")
 
 
 if __name__ == "__main__":
