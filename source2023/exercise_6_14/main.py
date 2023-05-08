@@ -11,7 +11,7 @@ def parse_sequence(fasta_filename: str):
     try:
         for seq in SeqIO.parse(fasta_filename, "fasta"):
             pass
-            print(f"The length of {fasta_filename.split('/')[3]} nucleotide sequence is: {len(seq)} characters.")
+            print(f"The length of {(fasta_filename.split('/')[3]).split('.fasta')[0]} nucleotide sequence is: {len(seq)} characters.")
 
     except Exception as e:
         print("\nAn unexpected error occurred while reading .fasta input files:\n\n" + str(e))
