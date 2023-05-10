@@ -1,0 +1,48 @@
+{
+  "sequences": [
+    {
+     "0": [
+    {
+      "id": 0,
+      "name": "brain",
+      "sequenceLength": 49943,
+      "ncbiURL": "https://www.ncbi.nlm.nih.gov/gene/5834",
+      "exerciseNucleotideSequenceURL": "https://www.ncbi.nlm.nih.gov/nuccore/NC_000020.11?report=fasta&from=25248070&to=25298012",
+      "officialSymbol": "PYGB",
+      "officialFullName": "glycogen phosphorylase B",
+      "geneType": "protein coding",
+      "summary": "The protein encoded by this gene is a glycogen phosphorylase found predominantly in the brain. The encoded protein forms homodimers which can associate into homotetramers, the enzymatically active form of glycogen phosphorylase. The activity of this enzyme is positively regulated by AMP and negatively regulated by ATP, ADP, and glucose-6-phosphate. This enzyme catalyzes the rate-determining step in glycogen degradation.",
+      "alias": "GPBB"
+    }
+  ],
+  "1": [
+    {
+      "id": 1,
+      "name": "liver",
+      "sequenceLength": 39314,
+      "ncbiURL": "https://www.ncbi.nlm.nih.gov/gene/5836",
+      "exerciseNucleotideSequenceURL": "https://www.ncbi.nlm.nih.gov/nuccore/NC_000014.9?report=fasta&from=50905217&to=50944530&strand=true",
+      "officialSymbol": "PYGL",
+      "officialFullName": "glycogen phosphorylase L",
+      "geneType": "protein coding",
+      "summary": "This gene encodes a homodimeric protein that catalyses the cleavage of alpha-1,4-glucosidic bonds to release glucose-1-phosphate from liver glycogen stores. This protein switches from inactive phosphorylase B to active phosphorylase A by phosphorylation of serine residue 15. Activity of this enzyme is further regulated by multiple allosteric effectors and hormonal controls. Humans have three glycogen phosphorylase genes that encode distinct isozymes that are primarily expressed in liver, brain and muscle, respectively. The liver isozyme serves the glycemic demands of the body in general while the brain and muscle isozymes supply just those tissues. In glycogen storage disease type VI, also known as Hers disease, mutations in liver glycogen phosphorylase inhibit the conversion of glycogen to glucose and results in moderate hypoglycemia, mild ketosis, growth retardation and hepatomegaly. Alternative splicing results in multiple transcript variants encoding different isoforms.",
+      "alias": "GSD6"
+    }
+  ],
+  "2": [
+    {
+      "id": 2,
+      "name": "muscle",
+      "sequenceLength": 14327,
+      "ncbiURL": "https://www.ncbi.nlm.nih.gov/gene/5837",
+      "exerciseNucleotideSequenceURL": "https://www.ncbi.nlm.nih.gov/nuccore/NC_000011.10?report=fasta&from=64746389&to=64760715&stand=true",
+      "officialSymbol": "PYGM",
+      "officialFullName": "glycogen phosphorylase, muscle associated",
+      "geneType": "protein coding",
+      "summary": "This gene encodes a muscle enzyme involved in glycogenolysis. Highly similar enzymes encoded by different genes are found in liver and brain. Mutations in this gene are associated with McArdle disease (myophosphorylase deficiency), a glycogen storage disease of muscle. Alternative splicing results in multiple transcript variants.",
+      "alias": "GSD5"
+    }
+  ]
+    }
+  ]
+}
