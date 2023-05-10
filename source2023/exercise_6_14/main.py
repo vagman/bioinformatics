@@ -21,7 +21,6 @@ def fill_first_2rows2cols_matrix(n: int, m: int, solution_matrix: list):
     if m >= 2 and n >= 2:
         for i in range(2, m + 1):
             solution_matrix[i][1] = "L"
-    if n >= 2 and m >= 2:
         for j in range(2, n + 1):
             solution_matrix[1][j] = "L"
     return solution_matrix
